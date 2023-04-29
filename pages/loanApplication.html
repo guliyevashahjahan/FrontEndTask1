@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="icon" href="../images/GUID-C5D8694A-87E2-4979-AA1C-83A161649CCC-low.png"/>
+    <style>
+        div{
+            margin-bottom: 12px;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            background-color:rgb(192, 191, 232) ;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="width:600px">
+    <header>
+        <h1>Loan Application</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Applicant Information:</h2>
+                <form>
+                    <div>
+                    <label>First Name: </label>
+                    <input type="text" name = applicantName value="John"/>
+                </div>
+                <div>
+                    <label>Last Name: </label>
+                    <input type="text" name = applicantLastName value="Smith"/>
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input type="email" name = applicantEmail value="john.smith@example.com">
+                </div>
+                <div>
+                    <label>Social Security #: </label>
+                    <input type="text" name = applicantSocialSecurity value="123-45-6789">
+                </div>
+                <div>
+                    <label>Daytime Phone: </label>
+                    <input type="tel" name = applicantDaytimePhone value="2039299400">
+                </div>
+                <div>
+                    <label>Evening Phone: </label>
+                    <input type="tel" name = applicantEveningPhone value="2035551212">
+                </div>
+            </form>
+            </article>
+            <article>
+                <h2>Loan Information: </h2>
+                <form>
+                    <div>
+                        <label>Loan Type: </label>
+                        <select>
+                            <option>Automobile</option>
+                            <option>Personal</option>
+                            <option>Student</option>
+                            <option>Home Equity</option>
+                            <option>Credit-Builder</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Loan Amount $: </label>
+                        <input type="number" name = loanAmount value="15000"/>
+                    </div>
+                    <div>
+                        <label>Description: </label>
+                        <textarea rows = "4" cols="34">Application to finance the purchase of a Toyota Prius</textarea>
+                    </div>
+                    <div>
+                        <label>Submit Application</label>
+                        <input type="submit" value="Apply For Loan">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+</fieldset>
+</body>
+</html> 
